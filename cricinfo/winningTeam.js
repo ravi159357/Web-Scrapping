@@ -18,4 +18,5 @@ function requestCallback(err, res, html) {
       ? [$(bothTeamsObject[1]).text(), $(bothTeamScoreObject[1]).text()]
       : [$(bothTeamsObject[0]).text(), $(bothTeamScoreObject[0]).text()];
   console.log(winningTeamNameScoreArray);
+  
 }

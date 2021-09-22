@@ -34,6 +34,7 @@ function fetchDateOfBirth(index, err, res, html) {
     batsmanProfileUrls[index]["Date Of Birth"] = playerDateOfBirth;
     if(count == batsmanProfileUrls.length) {
         console.log(batsmanProfileUrls);
+ 
     }
 }
 

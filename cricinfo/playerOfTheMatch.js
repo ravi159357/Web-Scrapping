@@ -7,7 +7,7 @@ function requestCallback(err, res, html){
     const $ = cheerio.load(html);
     console.log($(".playerofthematch-name").length);
     console.log($($(".playerofthematch-name")[1]).get(0).attribs);
-    console.log($($(".playerofthematch-player-detail")[1]).html());
+    console.log($($(".playerofthematch-player-detail")[1]).html());  
 }
 
 

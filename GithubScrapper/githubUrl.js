@@ -37,5 +37,4 @@ function fetchRepos(index,err, res, html){
     if(topicCounts == 3) {
         fs.writeFileSync("temp.json", JSON.stringify(gitTopics));
     }
-
 }
